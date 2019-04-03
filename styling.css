@@ -1,0 +1,149 @@
+/*返回顶部*/
+#toTop{
+    position:fixed;
+    bottom:100px;
+    right:0;
+    display:none;
+    z-index:20;
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+/* 主体 */
+.styl{
+    width:1423px;
+    height:3322px;
+    border-bottom:1px solid white;
+    border-top:1px solid white;
+}
+.styl-1{
+    width:1200px;
+    height:2810px;
+    margin-top:150px;
+    margin-left:111px;
+}
+/* 标题 */
+.title-styl{
+    width:1200px;
+    height:180px;
+    padding: 10px 0 0px;
+    text-align: center;
+}
+.title-styl>span{
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #81d8d0;
+}
+.title-styl h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #333333;
+    padding: 36px 0 26px;
+    line-height: 1;
+    font-weight: normal;
+}
+.title-styl h2 span{
+    font-size: 36px;
+    padding-right: 30px;
+}
+.title-styl p{
+    font-size: 12px;
+    color: #333;
+    line-height: 1.6;
+}
+/* 内容 */
+.styl-res{
+    width:1200px;
+    height:2591px;
+    margin-top:20px;
+}
+.fege{
+    width:1200px;
+    height:90px;
+    padding-top:15px;
+    padding-bottom:15px;
+    float:left;
+    text-align:center;
+    line-height:60px;
+}
+.fege a{
+    color:#333333;
+}
+.fege li{
+    display: inline-block;
+    border-radius: 25px;
+    border: 1px #dedede solid;
+    text-align: center;
+    line-height: 48px;
+    color: #333333;
+    font-size: 16px;
+    width: 140px;
+    transition-duration: 2s;
+    margin:0px 25px 0px 25px;
+}
+.fege li:hover{
+    background-color: #81d8d0;
+    color: #fff;
+    border-color: #81d8d0;
+}
+.fege>.actt{
+    color: #fff !important;
+    border-color: #81d8d0;
+    background-color:#81d8d0;
+}
+#container{
+    width:1200px;
+    height:2466px;
+    position:relative;
+    top:100px;
+    left:0;
+    margin-top:10px;  
+}
+#content1{
+    width: 1200px;
+    height: 2458px;
+    overflow:hidden;
+	position: absolute;
+	top: 0px;
+    left: 0;
+    background:white;
+}
+#content2{
+    width: 1200px;
+    height: 2458px;
+    overflow:hidden;
+	position: absolute;
+	top: 0px;
+    left: 0;
+    background:white;
+    overflow:hidden;
+}
+#content2>p{
+    margin-top:-4px;
+}
+#content3{
+    width: 1200px;
+    height: 2458px;
+    overflow:hidden;
+	position: absolute;
+	top: 0px;
+    left: 0;
+    background:white;
+}
+#content3>p{
+    margin-top:-4px;
+}
+/*尾部*/
+.footer{
+    width:100%;
+    height:370px;
+}

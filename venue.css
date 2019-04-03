@@ -1,0 +1,87 @@
+/*返回顶部*/
+#toTop{
+    position:fixed;
+    bottom:100px;
+    right:0;
+    display:none;
+    z-index:20;
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.venue{
+    width:1423px;
+    height:3770px;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+/* 主体 */
+.vue-1{
+    width:1200px;
+    height:3260px;
+    margin-top:150px;
+    margin-left:111px;
+}
+/* 标题 */
+.vue-title{
+    width:1200px;
+    height:240px;
+    padding: 10px 0 0px;
+    text-align: center;
+}
+.vue-title>span{
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #81d8d0;
+}
+.vue-title h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #333333;
+    padding: 36px 0 26px;
+    line-height: 1;
+    font-weight: normal;
+}
+.vue-title h2 span{
+    font-size: 40px;
+    padding-right: 30px;
+}
+.vue-title>h2>span>strong{
+    color:#81d8d0;
+    font-weight:normal;
+    margin-left:-10px;
+}
+.vue-title p{
+    font-size: 12px;
+    color: #333;
+    line-height: 1.6;
+}
+/* 内容 */
+.vue-sp{
+    width:1200px;
+    height:3000px;
+    margin-top:10px;
+    overflow:hidden;
+    text-align:center;
+}
+.vue-sp a{
+    display:block;
+    margin-bottom:30px;
+}
+.vue-sp a:hover{
+    color:#81d8d0;
+}
+/*尾部*/
+.footer{
+    width:100%;
+    height:366px;
+}
